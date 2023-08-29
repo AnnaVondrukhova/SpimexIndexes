@@ -1,0 +1,92 @@
+{
+  "count": 6,
+  "page": 1,
+  "pageCount": 1,
+  "pageSize": 100,
+  "data": [
+    {
+      "index_date": "2023-04-04",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 48044,
+      "index_diff": 92,
+      "base_volume": 5920,
+      "base_amount": 268501925,
+      "base_trades": 59,
+      "calc_date": "2023-04-04 13:55:00",
+      "calc_type": "FIX"
+    },
+    {
+      "index_date": "2023-04-05",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 47708,
+      "index_diff": -336,
+      "base_volume": 4577,
+      "base_amount": 207908713,
+      "base_trades": 61,
+      "calc_date": "2023-04-05 13:55:00",
+      "calc_type": "FIX"
+    },
+    {
+      "index_date": "2023-04-06",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 47605,
+      "index_diff": -103,
+      "base_volume": 5677,
+      "base_amount": 255847973,
+      "base_trades": 58,
+      "calc_date": "2023-04-06 13:55:00",
+      "calc_type": "FIX"
+    },
+    {
+      "index_date": "2023-04-07",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 47348,
+      "index_diff": -257,
+      "base_volume": 7078,
+      "base_amount": 315852975,
+      "base_trades": 71,
+      "calc_date": "2023-04-07 13:55:00",
+      "calc_type": "FIX"
+    },
+    {
+      "index_date": "2023-04-10",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 47071,
+      "index_diff": -277,
+      "base_volume": 4881,
+      "base_amount": 218706612,
+      "base_trades": 53,
+      "calc_date": "2023-04-10 13:55:00",
+      "calc_type": "FIX"
+    },
+    {
+      "index_date": "2023-04-11",
+      "index_code": "ERIS_MOS_REG",
+      "index_type": "ERIS",
+      "index_place": "MOS",
+      "index_product": "REG",
+      "index_value": 47210,
+      "index_diff": 139,
+      "base_volume": 5249,
+      "base_amount": 234984666,
+      "base_trades": 66,
+      "calc_date": "2023-04-11 13:55:00",
+      "calc_type": "FIX"
+    }
+  ]
+}
