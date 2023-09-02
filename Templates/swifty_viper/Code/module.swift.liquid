@@ -1,0 +1,30 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//
+
+import UIKit
+
+class {{ module_info.name }}Module {
+    var view: {{ module_info.name }}ViewController
+    var presenter: {{ module_info.name }}Presenter
+    var interactor: {{ module_info.name }}Interactor
+    var router: {{ module_info.name }}Router
+
+    init() {
+	self.view = {{ module_info.name }}ViewController()
+        self.presenter = {{ module_info.name }}Presenter()
+        self.interactor = {{ module_info.name }}Interactor()
+        self.router = {{ module_info.name }}Router()
+        
+        self.view.presenter = self.presenter
+        self.presenter.view = self.view
+        self.presenter.interactor = self.interactor
+        self.presenter.router = self.router
+        
+        self.interactor.presenter = self.presenter
+    }
+
+}
